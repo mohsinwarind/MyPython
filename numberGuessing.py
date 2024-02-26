@@ -6,6 +6,8 @@ def guess_number():
     print("I'm thinking of a number between 1 to 10 . Can you guess it ? ")
     while True:
         try:
+            # Printing the computer Number ///
+            # print(secret_number)
             guess = int(input("Enter your Number  : "))
             attempts+=1
             
